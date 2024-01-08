@@ -18,7 +18,4 @@ document.addEventListener('DOMContentLoaded', function () {
         messagesList.appendChild(newMessage);
     });
 
-    socket.on('user count', function(count){
-        document.querySelector('#user-count').textContent = '用户在线: ' + count;
-    });
 });
